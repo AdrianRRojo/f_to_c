@@ -32,11 +32,11 @@ fn main() {
     // The math: 
     // C = (F - 32) × 5/9
     // F = C × (9/5) + 32
-    if converter == "F"{
+    if converter == "F" || converter == "f"{
         // println!("ANS: My F");
         let _answer = (new_variable - 32) * 5/9;
         println!("{_answer}°C");
-    } else if converter == "C"{
+    } else if converter == "C" || converter == "c"{
         // println!("ANS: {converter}");
         let _answer = new_variable * 9/5 + 32;
         println!("{_answer}°F");
